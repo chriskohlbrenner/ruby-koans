@@ -30,6 +30,8 @@ class AboutHashes < Neo::Koan
     # THINK ABOUT IT:
     #
     # Why might you want to use #fetch instead of #[] when accessing hash keys?
+
+    # To raise an error instead of silent failing by returning nil
   end
 
   def test_changing_hashes
@@ -41,6 +43,8 @@ class AboutHashes < Neo::Koan
 
     # Bonus Question: Why was "expected" broken out into a variable
     # rather than used as a literal?
+
+    # it's not necessary to test the other key/value pair (:two => "dos")
   end
 
   def test_hash_is_unordered
